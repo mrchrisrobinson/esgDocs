@@ -8,3 +8,9 @@ fields:
 - type: text
   name: linkTitle
   label: linkTitle
+- name: hero_image
+  type: file
+  config:
+    maxSize: 250
+  label: Hero Image
+  description: The main image on the Home Screen
